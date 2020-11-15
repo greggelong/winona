@@ -1,0 +1,36 @@
+html, body {
+  margin: 5%;   /* had to put a margin if text is centerd for the body text art is off */
+  padding: 0;
+  background: black;
+  font-size:large
+  
+}
+
+pre {
+ color:green; 
+ font-size:large;
+}
+
+
+textarea {
+ color:green; 
+ font-size:large;
+  background: black;
+}
+
+input {
+ color:green; 
+ font-size:large;
+  background: black;
+}
+
+h1 , h2,h3{
+ color:orange; 
+ text-align:center;
+}
+
+
+
+canvas {
+  display: block;
+}
