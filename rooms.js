@@ -35,7 +35,7 @@ rooms = {
                 },
             'Greg\'s room' : {
                   'south' : 'Angela\'s room',
-                  'look'  : 'You see a telescope and poster of the solar system.'
+                  'look'  : 'You see a telescope and poster of the solar system. There is an image of a microwave. \'go microwave\' is scribbled below'
                   
                   
                 },
