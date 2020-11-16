@@ -100,7 +100,7 @@ function showStatus(addtext){
   // you can add text to the status
 
 
-	displaytext = `${addtext} \n Your inventory:${inventory} \n You are in the ${currentRoom}`
+	displaytext = `${addtext} \n Your inventory:${inventory} \n You are in (the) ${currentRoom}`
 	// check for item
 	if (rooms[currentRoom].item){
 		displaytext += `\n There is a: ${rooms[currentRoom].item}`
