@@ -107,7 +107,7 @@ function showStatus(addtext){
 	}
 	// add instructioins
 	displaytext+= `\n =========\n Commands:
-       go [direction]
+       go [north, south, east, west, up, down]
        get [item]
        look `
 
