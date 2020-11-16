@@ -66,7 +66,7 @@ function command (){
   // if you type get first
 
   if (move[0] === "get"){
-    if(rooms[currentRoom]["item"] === move[1]){
+    if(rooms[currentRoom]["item"] && rooms[currentRoom]["item"] === move[1]){  // check if there is an item and it matches choice
       inventory.push(rooms[currentRoom]["item"]);
       delete rooms[currentRoom]["item"];
       showStatus("***You got it******")
